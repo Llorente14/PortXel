@@ -1,0 +1,21 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  svg {
+    @apply w-[1em] h-[1em];
+  }
+  .circleTime-svg {
+    @apply w-[1em] h-[1em];
+  }
+  .skills-svg svg {
+    @apply w-[4em] h-[4em];
+  }
+  .porto-svg-sm svg {
+    @apply size-[1.2em] flex items-center justify-center;
+  }
+  .porto-svg-lg svg {
+    @apply size-[1.1em] flex items-center justify-center;
+  }
+}
