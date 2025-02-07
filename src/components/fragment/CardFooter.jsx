@@ -1,5 +1,5 @@
 import SocialMediaBar from "./SocialMediaBar";
-import CtaBtn from "../element/ctaBtn";
+import CtaBtn from "../element/CtaBtn";
 
 const CardFooter = ({ btn, foot }) => {
   return (
